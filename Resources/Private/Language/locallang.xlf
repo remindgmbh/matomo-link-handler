@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext">
+        <header/>
+        <body>
+            <trans-unit id="action">
+                <source>Action</source>
+            </trans-unit>
+            <trans-unit id="opt-in">
+                <source>Opt-In</source>
+            </trans-unit>
+            <trans-unit id="opt-out">
+                <source>Opt-Out</source>
+            </trans-unit>
+            <trans-unit id="title">
+                <source>Matomo</source>
+            </trans-unit>
+            <trans-unit id="toggle">
+                <source>Toggle</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

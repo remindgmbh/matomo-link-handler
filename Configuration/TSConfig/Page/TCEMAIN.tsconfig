@@ -1,0 +1,12 @@
+TCEMAIN.linkHandler {
+   matomo {
+      handler = Remind\MatomoLinkHandler\LinkHandler\LinkHandler
+      label = LLL:EXT:rmnd_matomo_link_handler/Resources/Private/Language/locallang.xlf:title
+      displayAfter = url
+      scanBefore = url
+      configuration {
+          project = TYPO3-Documentation/TYPO3CMS-Reference-CoreApi
+          action = issues
+      }
+   }
+}
