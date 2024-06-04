@@ -30,7 +30,7 @@ class LinkHandler implements LinkHandlerInterface
 
     public function canHandleLink(array $linkParts): bool
     {
-        if ($linkParts['type'] !== 'matomo') {
+        if (!isset($linkParts['type']) || $linkParts['type'] !== 'matomo') {
             return false;
         }
         $this->linkParts = $linkParts['url'] ?? [];
