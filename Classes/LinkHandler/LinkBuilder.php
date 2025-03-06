@@ -12,6 +12,10 @@ class LinkBuilder extends AbstractTypolinkBuilder
 {
     private const TYPE_MATOMO = 'matomo';
 
+    /**
+     * @param mixed[] $linkDetails
+     * @param mixed[] $conf
+     */
     public function build(
         array &$linkDetails,
         string $linkText,

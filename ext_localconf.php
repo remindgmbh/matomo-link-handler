@@ -7,7 +7,7 @@ use Remind\MatomoLinkHandler\LinkHandler\LinkHandling;
 
 defined('TYPO3') or die;
 
-(function () {
+(function (): void {
     $GLOBALS['TYPO3_CONF_VARS']['FE']['typolinkBuilder']['matomo'] = LinkBuilder::class;
     $GLOBALS['TYPO3_CONF_VARS']['SYS']['linkHandler']['matomo'] = LinkHandling::class;
 })();
