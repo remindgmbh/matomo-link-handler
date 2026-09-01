@@ -36,17 +36,17 @@
     },
     "require": {
         "php": "^8",
-        "typo3/cms-backend": "^13.4",
-        "typo3/cms-core": "^13.4",
-        "typo3/cms-frontend": "^13.4"
+        "typo3/cms-backend": "^14",
+        "typo3/cms-core": "^14",
+        "typo3/cms-frontend": "^14"
     },
     "require-dev": {
         "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
         "phpstan/extension-installer": "^1.4",
-        "phpstan/phpstan": "^1.11",
+        "phpstan/phpstan": "^2.1",
         "phpunit/phpunit": "^11.5",
         "remind/coding-standard": "^1.0",
-        "saschaegerer/phpstan-typo3": "^1.10",
+        "saschaegerer/phpstan-typo3": "^3.1",
         "slevomat/coding-standard": "^8.14",
         "squizlabs/php_codesniffer": "^3.7",
         "typo3/testing-framework": "^9.5"
